@@ -1,0 +1,75 @@
+{
+  "project": "2026年脉冲光纤激光器研究进展报告",
+  "deadline": "2026-04-05",
+  "repository": "https://github.com/piao50/openclaw-multi-agent-laser.git",
+  "default_branch": "main",
+  "tasks": [
+    {
+      "id": "T1",
+      "title": "脉冲光纤激光器技术原理与架构演进",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "调研调Q技术、锁模技术、MOPA结构等技术原理与演进脉络",
+      "deliverable": "research_data/technology_architecture.md"
+    },
+    {
+      "id": "T2",
+      "title": "2026年度重要研究成果与突破",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "收集功率提升、脉冲宽度压缩、波长拓展、光束质量改善等关键突破",
+      "deliverable": "research_data/breakthroughs_2026.md"
+    },
+    {
+      "id": "T3",
+      "title": "主要厂商与研究机构进展对比",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "IPG、nLight、锐科激光、杰普特等厂商技术能力与市场份额对比",
+      "deliverable": "research_data/player_comparison.md"
+    },
+    {
+      "id": "T4",
+      "title": "典型应用场景",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "工业加工、医疗、激光雷达、科研等领域的应用案例",
+      "deliverable": "research_data/application_cases.md"
+    },
+    {
+      "id": "T5",
+      "title": "技术挑战与未来趋势",
+      "assignee": "researcher",
+      "status": "pending",
+      "description": "当前技术瓶颈与未来发展方向",
+      "deliverable": "research_data/challenges_and_trends.md"
+    },
+    {
+      "id": "T6",
+      "title": "撰写完整报告初稿",
+      "assignee": "writer",
+      "status": "pending",
+      "depends_on": ["T1","T2","T3","T4","T5"],
+      "description": "基于调研数据撰写完整Markdown格式报告",
+      "deliverable": "drafts/report_draft_v1.md"
+    },
+    {
+      "id": "T7",
+      "title": "报告评审与修订",
+      "assignee": "reviewer",
+      "status": "pending",
+      "depends_on": ["T6"],
+      "description": "评审初稿质量、数据可靠性、逻辑完整性，给出修改意见",
+      "deliverable": "comments/review_v1.md"
+    },
+    {
+      "id": "T8",
+      "title": "修订定稿与Word文档输出",
+      "assignee": "writer",
+      "status": "pending",
+      "depends_on": ["T7"],
+      "description": "根据评审意见修订，输出最终Markdown及Word文档",
+      "deliverable": "drafts/report_final.md, drafts/report_final.docx"
+    }
+  ]
+}
