@@ -11,3 +11,5 @@
   - T5 → research_data/challenges_and_trends.md
 - ⚠️ 数据基于训练知识，需后续补充2025-2026最新数据
 - [coordinator] 已通知 writer 开始撰写初稿（T6）
+- [writer] ✅ T6 初稿完成 (commit: 0604366) → drafts/report_draft_v1.md（12.5KB，参考文献25篇）
+- [coordinator] 已通知 reviewer 开始评审（T7）
