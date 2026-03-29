@@ -13,3 +13,8 @@
 - [coordinator] 已通知 writer 开始撰写初稿（T6）
 - [writer] ✅ T6 初稿完成 (commit: 0604366) → drafts/report_draft_v1.md（12.5KB，参考文献25篇）
 - [coordinator] 已通知 reviewer 开始评审（T7）
+- [reviewer] ✅ T7 评审完成 (commit: 0ec990c) → comments/review_v1.md
+  - 7个阻塞性问题：缺少主要研究机构、系统集成瓶颈、绿色趋势、新兴应用、通信场景、牙科应用、终端用户表格
+  - 5个建议性修改
+  - 整体通过
+- [coordinator] 已通知 writer 根据评审意见修订定稿（T8）
